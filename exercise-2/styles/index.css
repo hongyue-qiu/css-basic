@@ -1,3 +1,35 @@
+h1,h2{
+    font-family: Georgia;
+    
+}
+p{
+    font-family:Helvetica ;
+    font-size: 18px;
+}
+p::first-line{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: capitalize;
+}
+.image{
+    background-image: url("../img/background-img.jpg");
+}
+.caption{
+    background-color: white;
+    color: black;
+    opacity: 0.75;
+    font-style: italic;
+}
+.caption a:hover{
+    text-decoration: none;
+    color: purple;
+}
+
 body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
